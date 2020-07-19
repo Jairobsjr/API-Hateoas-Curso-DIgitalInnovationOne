@@ -1,7 +1,6 @@
 package one.digitalinnovation.RestIntermediario.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import one.digitalinnovation.RestIntermediario.controller.request.SoldadoEditRequest;
 import one.digitalinnovation.RestIntermediario.controller.response.SoldadoListResponse;
 import one.digitalinnovation.RestIntermediario.controller.response.SoldadoResponse;
