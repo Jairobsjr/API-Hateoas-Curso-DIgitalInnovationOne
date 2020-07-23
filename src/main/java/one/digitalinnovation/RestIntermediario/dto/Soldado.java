@@ -1,10 +1,12 @@
 package one.digitalinnovation.RestIntermediario.dto;
 
+import one.digitalinnovation.RestIntermediario.enums.Raca;
+
 public class Soldado {
     private Long id;
     private String cpf;
     private String nome;
-    private String raca;
+    private Raca raca;
     private String arma;
     private String status;
 
@@ -40,11 +42,11 @@ public class Soldado {
         this.nome = nome;
     }
 
-    public String getRaca() {
+    public Raca getRaca() {
         return raca;
     }
 
-    public void setRaca(String raca) {
+    public void setRaca(Raca raca) {
         this.raca = raca;
     }
 
